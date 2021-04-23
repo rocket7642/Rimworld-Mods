@@ -1,0 +1,927 @@
+request : BlueMoonCorpSW, SlasherBlueSunSW
+Verse.Log:Message(String, Boolean)
+raceQuestPawn.patch_PawnGenerator_GeneratePawn:Prefix(PawnGenerationRequest&)
+Verse.PawnGenerator:Verse.PawnGenerator.GeneratePawn_Patch7(PawnGenerationRequest)
+RimWorld.PawnGroupKindWorker_Normal:GeneratePawns(PawnGroupMakerParms, PawnGroupMaker, List`1, Boolean)
+RimWorld.PawnGroupKindWorker:RimWorld.PawnGroupKindWorker.GeneratePawns_Patch1(PawnGroupKindWorker, PawnGroupMakerParms, PawnGroupMaker, Boolean)
+RimWorld.PawnGroupMaker:GeneratePawns(PawnGroupMakerParms, Boolean)
+RimWorld.<GeneratePawns>d__1:MoveNext()
+MOARANDROIDS.GeneratePawns_Patch:Listener(PawnGroupMakerParms, Boolean, IEnumerable`1&)
+RimWorld.PawnGroupMakerUtility:RimWorld.PawnGroupMakerUtility.GeneratePawns_Patch2(PawnGroupMakerParms, Boolean)
+RimWorld.IncidentWorker_NeutralGroup:SpawnPawns(IncidentParms)
+RimWorld.IncidentWorker_TravelerGroup:TryExecuteWorker(IncidentParms)
+RimWorld.IncidentWorker:RimWorld.IncidentWorker.TryExecute_Patch2(IncidentWorker, IncidentParms)
+RimWorld.Storyteller:RimWorld.Storyteller.TryFire_Patch1(Storyteller, FiringIncident)
+RimWorld.Storyteller:RimWorld.Storyteller.StorytellerTick_Patch1(Storyteller)
+Verse.TickManager:Verse.TickManager.DoSingleTick_Patch3(TickManager)
+Verse.TickManager:TickManagerUpdate()
+Verse.Game:Verse.Game.UpdatePlay_Patch2(Game)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+request : ChjAndroidEnclave, ChjAndroidTownTrader
+Verse.Log:Message(String, Boolean)
+raceQuestPawn.patch_PawnGenerator_GeneratePawn:Prefix(PawnGenerationRequest&)
+Verse.PawnGenerator:Verse.PawnGenerator.GeneratePawn_Patch7(PawnGenerationRequest)
+RimWorld.PawnGroupKindWorker_Trader:GenerateTrader(PawnGroupMakerParms, PawnGroupMaker, TraderKindDef)
+RimWorld.PawnGroupKindWorker_Trader:GeneratePawns(PawnGroupMakerParms, PawnGroupMaker, List`1, Boolean)
+RimWorld.PawnGroupKindWorker:RimWorld.PawnGroupKindWorker.GeneratePawns_Patch1(PawnGroupKindWorker, PawnGroupMakerParms, PawnGroupMaker, Boolean)
+RimWorld.PawnGroupMaker:GeneratePawns(PawnGroupMakerParms, Boolean)
+RimWorld.<GeneratePawns>d__1:MoveNext()
+MOARANDROIDS.GeneratePawns_Patch:Listener(PawnGroupMakerParms, Boolean, IEnumerable`1&)
+RimWorld.PawnGroupMakerUtility:RimWorld.PawnGroupMakerUtility.GeneratePawns_Patch2(PawnGroupMakerParms, Boolean)
+RimWorld.IncidentWorker_NeutralGroup:SpawnPawns(IncidentParms)
+RimWorld.IncidentWorker_TraderCaravanArrival:TryExecuteWorker(IncidentParms)
+RimWorld.IncidentWorker:RimWorld.IncidentWorker.TryExecute_Patch2(IncidentWorker, IncidentParms)
+RimWorld.Storyteller:RimWorld.Storyteller.TryFire_Patch1(Storyteller, FiringIncident)
+RimWorld.IncidentQueue:IncidentQueueTick()
+RimWorld.Storyteller:RimWorld.Storyteller.StorytellerTick_Patch1(Storyteller)
+Verse.TickManager:Verse.TickManager.DoSingleTick_Patch3(TickManager)
+Verse.TickManager:TickManagerUpdate()
+Verse.Game:Verse.Game.UpdatePlay_Patch2(Game)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+request : ChjAndroidEnclave, ChjAndroidTownGuard
+Verse.Log:Message(String, Boolean)
+raceQuestPawn.patch_PawnGenerator_GeneratePawn:Prefix(PawnGenerationRequest&)
+Verse.PawnGenerator:Verse.PawnGenerator.GeneratePawn_Patch7(PawnGenerationRequest)
+RimWorld.PawnGroupKindWorker_Trader:GenerateGuards(PawnGroupMakerParms, PawnGroupMaker, Pawn, List`1, List`1)
+RimWorld.PawnGroupKindWorker_Trader:GeneratePawns(PawnGroupMakerParms, PawnGroupMaker, List`1, Boolean)
+RimWorld.PawnGroupKindWorker:RimWorld.PawnGroupKindWorker.GeneratePawns_Patch1(PawnGroupKindWorker, PawnGroupMakerParms, PawnGroupMaker, Boolean)
+RimWorld.PawnGroupMaker:GeneratePawns(PawnGroupMakerParms, Boolean)
+RimWorld.<GeneratePawns>d__1:MoveNext()
+MOARANDROIDS.GeneratePawns_Patch:Listener(PawnGroupMakerParms, Boolean, IEnumerable`1&)
+RimWorld.PawnGroupMakerUtility:RimWorld.PawnGroupMakerUtility.GeneratePawns_Patch2(PawnGroupMakerParms, Boolean)
+RimWorld.IncidentWorker_NeutralGroup:SpawnPawns(IncidentParms)
+RimWorld.IncidentWorker_TraderCaravanArrival:TryExecuteWorker(IncidentParms)
+RimWorld.IncidentWorker:RimWorld.IncidentWorker.TryExecute_Patch2(IncidentWorker, IncidentParms)
+RimWorld.Storyteller:RimWorld.Storyteller.TryFire_Patch1(Storyteller, FiringIncident)
+RimWorld.IncidentQueue:IncidentQueueTick()
+RimWorld.Storyteller:RimWorld.Storyteller.StorytellerTick_Patch1(Storyteller)
+Verse.TickManager:Verse.TickManager.DoSingleTick_Patch3(TickManager)
+Verse.TickManager:TickManagerUpdate()
+Verse.Game:Verse.Game.UpdatePlay_Patch2(Game)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+request : ChjAndroidEnclave, ChjAndroidMercenaryGunner
+Verse.Log:Message(String, Boolean)
+raceQuestPawn.patch_PawnGenerator_GeneratePawn:Prefix(PawnGenerationRequest&)
+Verse.PawnGenerator:Verse.PawnGenerator.GeneratePawn_Patch7(PawnGenerationRequest)
+RimWorld.PawnGroupKindWorker_Trader:GenerateGuards(PawnGroupMakerParms, PawnGroupMaker, Pawn, List`1, List`1)
+RimWorld.PawnGroupKindWorker_Trader:GeneratePawns(PawnGroupMakerParms, PawnGroupMaker, List`1, Boolean)
+RimWorld.PawnGroupKindWorker:RimWorld.PawnGroupKindWorker.GeneratePawns_Patch1(PawnGroupKindWorker, PawnGroupMakerParms, PawnGroupMaker, Boolean)
+RimWorld.PawnGroupMaker:GeneratePawns(PawnGroupMakerParms, Boolean)
+RimWorld.<GeneratePawns>d__1:MoveNext()
+MOARANDROIDS.GeneratePawns_Patch:Listener(PawnGroupMakerParms, Boolean, IEnumerable`1&)
+RimWorld.PawnGroupMakerUtility:RimWorld.PawnGroupMakerUtility.GeneratePawns_Patch2(PawnGroupMakerParms, Boolean)
+RimWorld.IncidentWorker_NeutralGroup:SpawnPawns(IncidentParms)
+RimWorld.IncidentWorker_TraderCaravanArrival:TryExecuteWorker(IncidentParms)
+RimWorld.IncidentWorker:RimWorld.IncidentWorker.TryExecute_Patch2(IncidentWorker, IncidentParms)
+RimWorld.Storyteller:RimWorld.Storyteller.TryFire_Patch1(Storyteller, FiringIncident)
+RimWorld.IncidentQueue:IncidentQueueTick()
+RimWorld.Storyteller:RimWorld.Storyteller.StorytellerTick_Patch1(Storyteller)
+Verse.TickManager:Verse.TickManager.DoSingleTick_Patch3(TickManager)
+Verse.TickManager:TickManagerUpdate()
+Verse.Game:Verse.Game.UpdatePlay_Patch2(Game)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+request : ChjAndroidEnclave, ChjAndroidTownGuard
+Verse.Log:Message(String, Boolean)
+raceQuestPawn.patch_PawnGenerator_GeneratePawn:Prefix(PawnGenerationRequest&)
+Verse.PawnGenerator:Verse.PawnGenerator.GeneratePawn_Patch7(PawnGenerationRequest)
+RimWorld.PawnGroupKindWorker_Trader:GenerateGuards(PawnGroupMakerParms, PawnGroupMaker, Pawn, List`1, List`1)
+RimWorld.PawnGroupKindWorker_Trader:GeneratePawns(PawnGroupMakerParms, PawnGroupMaker, List`1, Boolean)
+RimWorld.PawnGroupKindWorker:RimWorld.PawnGroupKindWorker.GeneratePawns_Patch1(PawnGroupKindWorker, PawnGroupMakerParms, PawnGroupMaker, Boolean)
+RimWorld.PawnGroupMaker:GeneratePawns(PawnGroupMakerParms, Boolean)
+RimWorld.<GeneratePawns>d__1:MoveNext()
+MOARANDROIDS.GeneratePawns_Patch:Listener(PawnGroupMakerParms, Boolean, IEnumerable`1&)
+RimWorld.PawnGroupMakerUtility:RimWorld.PawnGroupMakerUtility.GeneratePawns_Patch2(PawnGroupMakerParms, Boolean)
+RimWorld.IncidentWorker_NeutralGroup:SpawnPawns(IncidentParms)
+RimWorld.IncidentWorker_TraderCaravanArrival:TryExecuteWorker(IncidentParms)
+RimWorld.IncidentWorker:RimWorld.IncidentWorker.TryExecute_Patch2(IncidentWorker, IncidentParms)
+RimWorld.Storyteller:RimWorld.Storyteller.TryFire_Patch1(Storyteller, FiringIncident)
+RimWorld.IncidentQueue:IncidentQueueTick()
+RimWorld.Storyteller:RimWorld.Storyteller.StorytellerTick_Patch1(Storyteller)
+Verse.TickManager:Verse.TickManager.DoSingleTick_Patch3(TickManager)
+Verse.TickManager:TickManagerUpdate()
+Verse.Game:Verse.Game.UpdatePlay_Patch2(Game)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+request : ChjAndroidEnclave, ChjAndroidMercenaryGunner
+Verse.Log:Message(String, Boolean)
+raceQuestPawn.patch_PawnGenerator_GeneratePawn:Prefix(PawnGenerationRequest&)
+Verse.PawnGenerator:Verse.PawnGenerator.GeneratePawn_Patch7(PawnGenerationRequest)
+RimWorld.PawnGroupKindWorker_Trader:GenerateGuards(PawnGroupMakerParms, PawnGroupMaker, Pawn, List`1, List`1)
+RimWorld.PawnGroupKindWorker_Trader:GeneratePawns(PawnGroupMakerParms, PawnGroupMaker, List`1, Boolean)
+RimWorld.PawnGroupKindWorker:RimWorld.PawnGroupKindWorker.GeneratePawns_Patch1(PawnGroupKindWorker, PawnGroupMakerParms, PawnGroupMaker, Boolean)
+RimWorld.PawnGroupMaker:GeneratePawns(PawnGroupMakerParms, Boolean)
+RimWorld.<GeneratePawns>d__1:MoveNext()
+MOARANDROIDS.GeneratePawns_Patch:Listener(PawnGroupMakerParms, Boolean, IEnumerable`1&)
+RimWorld.PawnGroupMakerUtility:RimWorld.PawnGroupMakerUtility.GeneratePawns_Patch2(PawnGroupMakerParms, Boolean)
+RimWorld.IncidentWorker_NeutralGroup:SpawnPawns(IncidentParms)
+RimWorld.IncidentWorker_TraderCaravanArrival:TryExecuteWorker(IncidentParms)
+RimWorld.IncidentWorker:RimWorld.IncidentWorker.TryExecute_Patch2(IncidentWorker, IncidentParms)
+RimWorld.Storyteller:RimWorld.Storyteller.TryFire_Patch1(Storyteller, FiringIncident)
+RimWorld.IncidentQueue:IncidentQueueTick()
+RimWorld.Storyteller:RimWorld.Storyteller.StorytellerTick_Patch1(Storyteller)
+Verse.TickManager:Verse.TickManager.DoSingleTick_Patch3(TickManager)
+Verse.TickManager:TickManagerUpdate()
+Verse.Game:Verse.Game.UpdatePlay_Patch2(Game)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+request : ChjAndroidEnclave, ChjAndroidGrenadierDestructive
+Verse.Log:Message(String, Boolean)
+raceQuestPawn.patch_PawnGenerator_GeneratePawn:Prefix(PawnGenerationRequest&)
+Verse.PawnGenerator:Verse.PawnGenerator.GeneratePawn_Patch7(PawnGenerationRequest)
+RimWorld.PawnGroupKindWorker_Trader:GenerateGuards(PawnGroupMakerParms, PawnGroupMaker, Pawn, List`1, List`1)
+RimWorld.PawnGroupKindWorker_Trader:GeneratePawns(PawnGroupMakerParms, PawnGroupMaker, List`1, Boolean)
+RimWorld.PawnGroupKindWorker:RimWorld.PawnGroupKindWorker.GeneratePawns_Patch1(PawnGroupKindWorker, PawnGroupMakerParms, PawnGroupMaker, Boolean)
+RimWorld.PawnGroupMaker:GeneratePawns(PawnGroupMakerParms, Boolean)
+RimWorld.<GeneratePawns>d__1:MoveNext()
+MOARANDROIDS.GeneratePawns_Patch:Listener(PawnGroupMakerParms, Boolean, IEnumerable`1&)
+RimWorld.PawnGroupMakerUtility:RimWorld.PawnGroupMakerUtility.GeneratePawns_Patch2(PawnGroupMakerParms, Boolean)
+RimWorld.IncidentWorker_NeutralGroup:SpawnPawns(IncidentParms)
+RimWorld.IncidentWorker_TraderCaravanArrival:TryExecuteWorker(IncidentParms)
+RimWorld.IncidentWorker:RimWorld.IncidentWorker.TryExecute_Patch2(IncidentWorker, IncidentParms)
+RimWorld.Storyteller:RimWorld.Storyteller.TryFire_Patch1(Storyteller, FiringIncident)
+RimWorld.IncidentQueue:IncidentQueueTick()
+RimWorld.Storyteller:RimWorld.Storyteller.StorytellerTick_Patch1(Storyteller)
+Verse.TickManager:Verse.TickManager.DoSingleTick_Patch3(TickManager)
+Verse.TickManager:TickManagerUpdate()
+Verse.Game:Verse.Game.UpdatePlay_Patch2(Game)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+request : ChjAndroidEnclave, ChjAndroidTownGuard
+Verse.Log:Message(String, Boolean)
+raceQuestPawn.patch_PawnGenerator_GeneratePawn:Prefix(PawnGenerationRequest&)
+Verse.PawnGenerator:Verse.PawnGenerator.GeneratePawn_Patch7(PawnGenerationRequest)
+RimWorld.PawnGroupKindWorker_Trader:GenerateGuards(PawnGroupMakerParms, PawnGroupMaker, Pawn, List`1, List`1)
+RimWorld.PawnGroupKindWorker_Trader:GeneratePawns(PawnGroupMakerParms, PawnGroupMaker, List`1, Boolean)
+RimWorld.PawnGroupKindWorker:RimWorld.PawnGroupKindWorker.GeneratePawns_Patch1(PawnGroupKindWorker, PawnGroupMakerParms, PawnGroupMaker, Boolean)
+RimWorld.PawnGroupMaker:GeneratePawns(PawnGroupMakerParms, Boolean)
+RimWorld.<GeneratePawns>d__1:MoveNext()
+MOARANDROIDS.GeneratePawns_Patch:Listener(PawnGroupMakerParms, Boolean, IEnumerable`1&)
+RimWorld.PawnGroupMakerUtility:RimWorld.PawnGroupMakerUtility.GeneratePawns_Patch2(PawnGroupMakerParms, Boolean)
+RimWorld.IncidentWorker_NeutralGroup:SpawnPawns(IncidentParms)
+RimWorld.IncidentWorker_TraderCaravanArrival:TryExecuteWorker(IncidentParms)
+RimWorld.IncidentWorker:RimWorld.IncidentWorker.TryExecute_Patch2(IncidentWorker, IncidentParms)
+RimWorld.Storyteller:RimWorld.Storyteller.TryFire_Patch1(Storyteller, FiringIncident)
+RimWorld.IncidentQueue:IncidentQueueTick()
+RimWorld.Storyteller:RimWorld.Storyteller.StorytellerTick_Patch1(Storyteller)
+Verse.TickManager:Verse.TickManager.DoSingleTick_Patch3(TickManager)
+Verse.TickManager:TickManagerUpdate()
+Verse.Game:Verse.Game.UpdatePlay_Patch2(Game)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+request : ChjAndroidEnclave, ChjAndroidTownTrader
+Verse.Log:Message(String, Boolean)
+raceQuestPawn.patch_PawnGenerator_GeneratePawn:Prefix(PawnGenerationRequest&)
+Verse.PawnGenerator:Verse.PawnGenerator.GeneratePawn_Patch7(PawnGenerationRequest)
+RimWorld.PawnGroupKindWorker_Trader:GenerateTrader(PawnGroupMakerParms, PawnGroupMaker, TraderKindDef)
+RimWorld.PawnGroupKindWorker_Trader:GeneratePawns(PawnGroupMakerParms, PawnGroupMaker, List`1, Boolean)
+RimWorld.PawnGroupKindWorker:RimWorld.PawnGroupKindWorker.GeneratePawns_Patch1(PawnGroupKindWorker, PawnGroupMakerParms, PawnGroupMaker, Boolean)
+RimWorld.PawnGroupMaker:GeneratePawns(PawnGroupMakerParms, Boolean)
+RimWorld.<GeneratePawns>d__1:MoveNext()
+System.Collections.Generic.List`1:.ctor(IEnumerable`1)
+System.Linq.Enumerable:ToList(IEnumerable`1)
+MOARANDROIDS.GeneratePawns_Patch:Listener(PawnGroupMakerParms, Boolean, IEnumerable`1&)
+RimWorld.PawnGroupMakerUtility:RimWorld.PawnGroupMakerUtility.GeneratePawns_Patch2(PawnGroupMakerParms, Boolean)
+RimWorld.IncidentWorker_NeutralGroup:SpawnPawns(IncidentParms)
+RimWorld.IncidentWorker_TraderCaravanArrival:TryExecuteWorker(IncidentParms)
+RimWorld.IncidentWorker:RimWorld.IncidentWorker.TryExecute_Patch2(IncidentWorker, IncidentParms)
+RimWorld.Storyteller:RimWorld.Storyteller.TryFire_Patch1(Storyteller, FiringIncident)
+RimWorld.IncidentQueue:IncidentQueueTick()
+RimWorld.Storyteller:RimWorld.Storyteller.StorytellerTick_Patch1(Storyteller)
+Verse.TickManager:Verse.TickManager.DoSingleTick_Patch3(TickManager)
+Verse.TickManager:TickManagerUpdate()
+Verse.Game:Verse.Game.UpdatePlay_Patch2(Game)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+request : ChjAndroidEnclave, ChjAndroidTownGuard
+Verse.Log:Message(String, Boolean)
+raceQuestPawn.patch_PawnGenerator_GeneratePawn:Prefix(PawnGenerationRequest&)
+Verse.PawnGenerator:Verse.PawnGenerator.GeneratePawn_Patch7(PawnGenerationRequest)
+RimWorld.PawnGroupKindWorker_Trader:GenerateGuards(PawnGroupMakerParms, PawnGroupMaker, Pawn, List`1, List`1)
+RimWorld.PawnGroupKindWorker_Trader:GeneratePawns(PawnGroupMakerParms, PawnGroupMaker, List`1, Boolean)
+RimWorld.PawnGroupKindWorker:RimWorld.PawnGroupKindWorker.GeneratePawns_Patch1(PawnGroupKindWorker, PawnGroupMakerParms, PawnGroupMaker, Boolean)
+RimWorld.PawnGroupMaker:GeneratePawns(PawnGroupMakerParms, Boolean)
+RimWorld.<GeneratePawns>d__1:MoveNext()
+System.Collections.Generic.List`1:.ctor(IEnumerable`1)
+System.Linq.Enumerable:ToList(IEnumerable`1)
+MOARANDROIDS.GeneratePawns_Patch:Listener(PawnGroupMakerParms, Boolean, IEnumerable`1&)
+RimWorld.PawnGroupMakerUtility:RimWorld.PawnGroupMakerUtility.GeneratePawns_Patch2(PawnGroupMakerParms, Boolean)
+RimWorld.IncidentWorker_NeutralGroup:SpawnPawns(IncidentParms)
+RimWorld.IncidentWorker_TraderCaravanArrival:TryExecuteWorker(IncidentParms)
+RimWorld.IncidentWorker:RimWorld.IncidentWorker.TryExecute_Patch2(IncidentWorker, IncidentParms)
+RimWorld.Storyteller:RimWorld.Storyteller.TryFire_Patch1(Storyteller, FiringIncident)
+RimWorld.IncidentQueue:IncidentQueueTick()
+RimWorld.Storyteller:RimWorld.Storyteller.StorytellerTick_Patch1(Storyteller)
+Verse.TickManager:Verse.TickManager.DoSingleTick_Patch3(TickManager)
+Verse.TickManager:TickManagerUpdate()
+Verse.Game:Verse.Game.UpdatePlay_Patch2(Game)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+request : ChjAndroidEnclave, ChjAndroidGrenadierDestructive
+Verse.Log:Message(String, Boolean)
+raceQuestPawn.patch_PawnGenerator_GeneratePawn:Prefix(PawnGenerationRequest&)
+Verse.PawnGenerator:Verse.PawnGenerator.GeneratePawn_Patch7(PawnGenerationRequest)
+RimWorld.PawnGroupKindWorker_Trader:GenerateGuards(PawnGroupMakerParms, PawnGroupMaker, Pawn, List`1, List`1)
+RimWorld.PawnGroupKindWorker_Trader:GeneratePawns(PawnGroupMakerParms, PawnGroupMaker, List`1, Boolean)
+RimWorld.PawnGroupKindWorker:RimWorld.PawnGroupKindWorker.GeneratePawns_Patch1(PawnGroupKindWorker, PawnGroupMakerParms, PawnGroupMaker, Boolean)
+RimWorld.PawnGroupMaker:GeneratePawns(PawnGroupMakerParms, Boolean)
+RimWorld.<GeneratePawns>d__1:MoveNext()
+System.Collections.Generic.List`1:.ctor(IEnumerable`1)
+System.Linq.Enumerable:ToList(IEnumerable`1)
+MOARANDROIDS.GeneratePawns_Patch:Listener(PawnGroupMakerParms, Boolean, IEnumerable`1&)
+RimWorld.PawnGroupMakerUtility:RimWorld.PawnGroupMakerUtility.GeneratePawns_Patch2(PawnGroupMakerParms, Boolean)
+RimWorld.IncidentWorker_NeutralGroup:SpawnPawns(IncidentParms)
+RimWorld.IncidentWorker_TraderCaravanArrival:TryExecuteWorker(IncidentParms)
+RimWorld.IncidentWorker:RimWorld.IncidentWorker.TryExecute_Patch2(IncidentWorker, IncidentParms)
+RimWorld.Storyteller:RimWorld.Storyteller.TryFire_Patch1(Storyteller, FiringIncident)
+RimWorld.IncidentQueue:IncidentQueueTick()
+RimWorld.Storyteller:RimWorld.Storyteller.StorytellerTick_Patch1(Storyteller)
+Verse.TickManager:Verse.TickManager.DoSingleTick_Patch3(TickManager)
+Verse.TickManager:TickManagerUpdate()
+Verse.Game:Verse.Game.UpdatePlay_Patch2(Game)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+request : ChjAndroidEnclave, ChjAndroidMercenaryGunner
+Verse.Log:Message(String, Boolean)
+raceQuestPawn.patch_PawnGenerator_GeneratePawn:Prefix(PawnGenerationRequest&)
+Verse.PawnGenerator:Verse.PawnGenerator.GeneratePawn_Patch7(PawnGenerationRequest)
+RimWorld.PawnGroupKindWorker_Trader:GenerateGuards(PawnGroupMakerParms, PawnGroupMaker, Pawn, List`1, List`1)
+RimWorld.PawnGroupKindWorker_Trader:GeneratePawns(PawnGroupMakerParms, PawnGroupMaker, List`1, Boolean)
+RimWorld.PawnGroupKindWorker:RimWorld.PawnGroupKindWorker.GeneratePawns_Patch1(PawnGroupKindWorker, PawnGroupMakerParms, PawnGroupMaker, Boolean)
+RimWorld.PawnGroupMaker:GeneratePawns(PawnGroupMakerParms, Boolean)
+RimWorld.<GeneratePawns>d__1:MoveNext()
+System.Collections.Generic.List`1:.ctor(IEnumerable`1)
+System.Linq.Enumerable:ToList(IEnumerable`1)
+MOARANDROIDS.GeneratePawns_Patch:Listener(PawnGroupMakerParms, Boolean, IEnumerable`1&)
+RimWorld.PawnGroupMakerUtility:RimWorld.PawnGroupMakerUtility.GeneratePawns_Patch2(PawnGroupMakerParms, Boolean)
+RimWorld.IncidentWorker_NeutralGroup:SpawnPawns(IncidentParms)
+RimWorld.IncidentWorker_TraderCaravanArrival:TryExecuteWorker(IncidentParms)
+RimWorld.IncidentWorker:RimWorld.IncidentWorker.TryExecute_Patch2(IncidentWorker, IncidentParms)
+RimWorld.Storyteller:RimWorld.Storyteller.TryFire_Patch1(Storyteller, FiringIncident)
+RimWorld.IncidentQueue:IncidentQueueTick()
+RimWorld.Storyteller:RimWorld.Storyteller.StorytellerTick_Patch1(Storyteller)
+Verse.TickManager:Verse.TickManager.DoSingleTick_Patch3(TickManager)
+Verse.TickManager:TickManagerUpdate()
+Verse.Game:Verse.Game.UpdatePlay_Patch2(Game)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+request : ChjAndroidEnclave, ChjAndroidTownGuard
+Verse.Log:Message(String, Boolean)
+raceQuestPawn.patch_PawnGenerator_GeneratePawn:Prefix(PawnGenerationRequest&)
+Verse.PawnGenerator:Verse.PawnGenerator.GeneratePawn_Patch7(PawnGenerationRequest)
+RimWorld.PawnGroupKindWorker_Trader:GenerateGuards(PawnGroupMakerParms, PawnGroupMaker, Pawn, List`1, List`1)
+RimWorld.PawnGroupKindWorker_Trader:GeneratePawns(PawnGroupMakerParms, PawnGroupMaker, List`1, Boolean)
+RimWorld.PawnGroupKindWorker:RimWorld.PawnGroupKindWorker.GeneratePawns_Patch1(PawnGroupKindWorker, PawnGroupMakerParms, PawnGroupMaker, Boolean)
+RimWorld.PawnGroupMaker:GeneratePawns(PawnGroupMakerParms, Boolean)
+RimWorld.<GeneratePawns>d__1:MoveNext()
+System.Collections.Generic.List`1:.ctor(IEnumerable`1)
+System.Linq.Enumerable:ToList(IEnumerable`1)
+MOARANDROIDS.GeneratePawns_Patch:Listener(PawnGroupMakerParms, Boolean, IEnumerable`1&)
+RimWorld.PawnGroupMakerUtility:RimWorld.PawnGroupMakerUtility.GeneratePawns_Patch2(PawnGroupMakerParms, Boolean)
+RimWorld.IncidentWorker_NeutralGroup:SpawnPawns(IncidentParms)
+RimWorld.IncidentWorker_TraderCaravanArrival:TryExecuteWorker(IncidentParms)
+RimWorld.IncidentWorker:RimWorld.IncidentWorker.TryExecute_Patch2(IncidentWorker, IncidentParms)
+RimWorld.Storyteller:RimWorld.Storyteller.TryFire_Patch1(Storyteller, FiringIncident)
+RimWorld.IncidentQueue:IncidentQueueTick()
+RimWorld.Storyteller:RimWorld.Storyteller.StorytellerTick_Patch1(Storyteller)
+Verse.TickManager:Verse.TickManager.DoSingleTick_Patch3(TickManager)
+Verse.TickManager:TickManagerUpdate()
+Verse.Game:Verse.Game.UpdatePlay_Patch2(Game)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+request : ChjAndroidEnclave, AndroidT2CollectiveSoldier
+Verse.Log:Message(String, Boolean)
+raceQuestPawn.patch_PawnGenerator_GeneratePawn:Prefix(PawnGenerationRequest&)
+Verse.PawnGenerator:Verse.PawnGenerator.GeneratePawn_Patch7(PawnGenerationRequest)
+MOARANDROIDS.Utils:generateSurrogate(Faction, PawnKindDef, IntVec3, Map, Boolean, Boolean, Int32, Boolean, Boolean, Int32)
+MOARANDROIDS.GeneratePawns_Patch:Listener(PawnGroupMakerParms, Boolean, IEnumerable`1&)
+RimWorld.PawnGroupMakerUtility:RimWorld.PawnGroupMakerUtility.GeneratePawns_Patch2(PawnGroupMakerParms, Boolean)
+RimWorld.IncidentWorker_NeutralGroup:SpawnPawns(IncidentParms)
+RimWorld.IncidentWorker_TraderCaravanArrival:TryExecuteWorker(IncidentParms)
+RimWorld.IncidentWorker:RimWorld.IncidentWorker.TryExecute_Patch2(IncidentWorker, IncidentParms)
+RimWorld.Storyteller:RimWorld.Storyteller.TryFire_Patch1(Storyteller, FiringIncident)
+RimWorld.IncidentQueue:IncidentQueueTick()
+RimWorld.Storyteller:RimWorld.Storyteller.StorytellerTick_Patch1(Storyteller)
+Verse.TickManager:Verse.TickManager.DoSingleTick_Patch3(TickManager)
+Verse.TickManager:TickManagerUpdate()
+Verse.Game:Verse.Game.UpdatePlay_Patch2(Game)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+[ATPP] HediffSet.GetFirstHediffOfDefObject reference not set to an instance of an object -   at MOARANDROIDS.Pawn_HealthTracker_Patch+GetFirstHediffOfDef.Listener (Verse.HediffSet __instance, Verse.Hediff& __result, Verse.HediffDef def, System.Boolean mustBeVisible) [0x00022] in <56dcae162de2498b9bb4ebfacbf4d8d6>:0 
+Verse.Log:Message(String, Boolean)
+MOARANDROIDS.GetFirstHediffOfDef:Listener(HediffSet, Hediff&, HediffDef, Boolean)
+Verse.HediffSet:Verse.HediffSet.GetFirstHediffOfDef_Patch1(HediffSet, HediffDef, Boolean)
+RimWorld.ThoughtWorker_Hediff:RimWorld.ThoughtWorker_Hediff.CurrentStateInternal_Patch1(ThoughtWorker_Hediff, Pawn)
+RimWorld.ThoughtWorker:CurrentState(Pawn)
+RimWorld.SituationalThoughtHandler:RimWorld.SituationalThoughtHandler.TryCreateThought_Patch1(SituationalThoughtHandler, ThoughtDef)
+RimWorld.SituationalThoughtHandler:CheckRecalculateMoodThoughts()
+RimWorld.SituationalThoughtHandler:AppendMoodThoughts(List`1)
+RimWorld.ThoughtHandler:GetAllMoodThoughts(List`1)
+RimWorld.ThoughtHandler:GetDistinctMoodThoughtGroups(List`1)
+RimWorld.ThoughtHandler:TotalMoodOffset()
+RimWorld.Need_Mood:get_CurInstantLevel()
+RimWorld.Need_Seeker:NeedInterval()
+RimWorld.Need_Mood:RimWorld.Need_Mood.NeedInterval_Patch1(Need_Mood)
+RimWorld.Pawn_NeedsTracker:RimWorld.Pawn_NeedsTracker.NeedsTrackerTick_Patch2(Pawn_NeedsTracker)
+Verse.Pawn:Verse.Pawn.Tick_Patch5(Pawn)
+Verse.TickList:Verse.TickList.Tick_Patch2(TickList)
+Verse.TickManager:Verse.TickManager.DoSingleTick_Patch3(TickManager)
+Verse.TickManager:TickManagerUpdate()
+Verse.Game:Verse.Game.UpdatePlay_Patch2(Game)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x00047] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn.get_DrawPos () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) RimWorld.SelectionDrawer.RimWorld.SelectionDrawer.DrawSelectionBracketFor_Patch1(object)
+  at (wrapper dynamic-method) RimWorld.SelectionDrawer.RimWorld.SelectionDrawer.DrawSelectionOverlays_Patch2()
+  at (wrapper dynamic-method) RimWorld.MapInterface.RimWorld.MapInterface.MapInterfaceUpdate_Patch4(RimWorld.MapInterface)
+  at (wrapper dynamic-method) RimWorld.UIRoot_Play.RimWorld.UIRoot_Play.UIRootUpdate_Patch1(RimWorld.UIRoot_Play)
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+RimWorld.UIRoot_Play:RimWorld.UIRoot_Play.UIRootUpdate_Patch1(UIRoot_Play)
+Verse.Root:Verse.Root.Update_Patch1(Root)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+Exception ticking Sora (at (182, 0, 180)): System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x00047] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at RimWorld.PawnFootprintMaker.FootprintMakerTick () [0x00045] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.DrawTrackerTick () [0x0004a] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) Verse.Pawn.Verse.Pawn.Tick_Patch5(Verse.Pawn)
+  at (wrapper dynamic-method) Verse.TickList.Verse.TickList.Tick_Patch2(Verse.TickList)
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+Verse.TickList:Verse.TickList.Tick_Patch2(TickList)
+Verse.TickManager:Verse.TickManager.DoSingleTick_Patch3(TickManager)
+Verse.TickManager:TickManagerUpdate()
+Verse.Game:Verse.Game.UpdatePlay_Patch2(Game)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+Exception drawing Sora: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x00047] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn.get_DrawPos () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Thing.Draw () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) Verse.ThingWithComps.Verse.ThingWithComps.Draw_Patch1(Verse.ThingWithComps)
+  at (wrapper dynamic-method) Verse.DynamicDrawManager.Verse.DynamicDrawManager.DrawDynamicThings_Patch1(Verse.DynamicDrawManager)
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+Verse.DynamicDrawManager:Verse.DynamicDrawManager.DrawDynamicThings_Patch1(DynamicDrawManager)
+Verse.Map:Verse.Map.MapUpdate_Patch2(Map)
+Verse.Game:Verse.Game.UpdatePlay_Patch2(Game)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+Exception drawing ThingOverlay for Sora: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x00047] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn.get_DrawPos () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.GenMapUI.LabelDrawPosFor (Verse.Thing thing, System.Single worldOffsetZ) [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) Verse.PawnUIOverlay.Verse.PawnUIOverlay.DrawPawnGUIOverlay_Patch3(Verse.PawnUIOverlay)
+  at Verse.Pawn.DrawGUIOverlay () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) Verse.ThingOverlays.Verse.ThingOverlays.ThingOverlaysOnGUI_Patch1(Verse.ThingOverlays)
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+Verse.ThingOverlays:Verse.ThingOverlays.ThingOverlaysOnGUI_Patch1(ThingOverlays)
+RimWorld.MapInterface:RimWorld.MapInterface.MapInterfaceOnGUI_BeforeMainTabs_Patch2(MapInterface)
+RimWorld.UIRoot_Play:RimWorld.UIRoot_Play.UIRootOnGUI_Patch1(UIRoot_Play)
+Verse.Root:Verse.Root.OnGUI_Patch1(Root)
+
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x00047] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn.get_DrawPos () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) Verse.TooltipGiverList.Verse.TooltipGiverList.DispenseAllThingTooltips_Patch1(Verse.TooltipGiverList)
+  at (wrapper dynamic-method) RimWorld.MapInterface.RimWorld.MapInterface.MapInterfaceOnGUI_BeforeMainTabs_Patch2(RimWorld.MapInterface)
+  at (wrapper dynamic-method) RimWorld.UIRoot_Play.RimWorld.UIRoot_Play.UIRootOnGUI_Patch1(RimWorld.UIRoot_Play)
+  at (wrapper dynamic-method) Verse.Root.Verse.Root.OnGUI_Patch1(Verse.Root)
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+Verse.Root:Verse.Root.OnGUI_Patch1(Root)
+
+Exception filling window for DubsMintMinimap.MainTabWindow_MiniMap: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x00047] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn.get_DrawPos () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at DubsMintMinimap.MainTabWindow_MiniMap.DrawAllPawns (UnityEngine.Rect radarRect) [0x00428] in <9935fa0fcabf4a51944c34b5a4b70cb9>:0 
+  at DubsMintMinimap.MainTabWindow_MiniMap.Minimap (UnityEngine.Rect inRect) [0x0062c] in <9935fa0fcabf4a51944c34b5a4b70cb9>:0 
+  at DubsMintMinimap.MainTabWindow_MiniMap.DoWindowContents (UnityEngine.Rect inRect) [0x0054b] in <9935fa0fcabf4a51944c34b5a4b70cb9>:0 
+  at Verse.Window.InnerWindowOnGUI (System.Int32 x) [0x00165] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+Verse.Window:InnerWindowOnGUI(Int32)
+UnityEngine.GUI:CallWindowDelegate(WindowFunction, Int32, Int32, GUISkin, Int32, Single, Single, GUIStyle)
+
+Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.ResetTweenedPosToRoot () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x0001d] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn.get_DrawPos () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) RimWorld.SelectionDrawer.RimWorld.SelectionDrawer.DrawSelectionBracketFor_Patch1(object)
+  at (wrapper dynamic-method) RimWorld.SelectionDrawer.RimWorld.SelectionDrawer.DrawSelectionOverlays_Patch2()
+  at (wrapper dynamic-method) RimWorld.MapInterface.RimWorld.MapInterface.MapInterfaceUpdate_Patch4(RimWorld.MapInterface)
+  at (wrapper dynamic-method) RimWorld.UIRoot_Play.RimWorld.UIRoot_Play.UIRootUpdate_Patch1(RimWorld.UIRoot_Play)
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+RimWorld.UIRoot_Play:RimWorld.UIRoot_Play.UIRootUpdate_Patch1(UIRoot_Play)
+Verse.Root:Verse.Root.Update_Patch1(Root)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+Exception ticking Sora (at (182, 0, 180)): System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.ResetTweenedPosToRoot () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x0001d] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at RimWorld.PawnFootprintMaker.FootprintMakerTick () [0x00045] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.DrawTrackerTick () [0x0004a] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) Verse.Pawn.Verse.Pawn.Tick_Patch5(Verse.Pawn)
+  at (wrapper dynamic-method) Verse.TickList.Verse.TickList.Tick_Patch2(Verse.TickList)
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+Verse.TickList:Verse.TickList.Tick_Patch2(TickList)
+Verse.TickManager:Verse.TickManager.DoSingleTick_Patch3(TickManager)
+Verse.TickManager:TickManagerUpdate()
+Verse.Game:Verse.Game.UpdatePlay_Patch2(Game)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+Exception drawing Sora: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.ResetTweenedPosToRoot () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x0001d] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn.get_DrawPos () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Thing.Draw () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) Verse.ThingWithComps.Verse.ThingWithComps.Draw_Patch1(Verse.ThingWithComps)
+  at (wrapper dynamic-method) Verse.DynamicDrawManager.Verse.DynamicDrawManager.DrawDynamicThings_Patch1(Verse.DynamicDrawManager)
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+Verse.DynamicDrawManager:Verse.DynamicDrawManager.DrawDynamicThings_Patch1(DynamicDrawManager)
+Verse.Map:Verse.Map.MapUpdate_Patch2(Map)
+Verse.Game:Verse.Game.UpdatePlay_Patch2(Game)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+Exception drawing ThingOverlay for Sora: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.ResetTweenedPosToRoot () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x0001d] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn.get_DrawPos () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.GenMapUI.LabelDrawPosFor (Verse.Thing thing, System.Single worldOffsetZ) [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) Verse.PawnUIOverlay.Verse.PawnUIOverlay.DrawPawnGUIOverlay_Patch3(Verse.PawnUIOverlay)
+  at Verse.Pawn.DrawGUIOverlay () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) Verse.ThingOverlays.Verse.ThingOverlays.ThingOverlaysOnGUI_Patch1(Verse.ThingOverlays)
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+Verse.ThingOverlays:Verse.ThingOverlays.ThingOverlaysOnGUI_Patch1(ThingOverlays)
+RimWorld.MapInterface:RimWorld.MapInterface.MapInterfaceOnGUI_BeforeMainTabs_Patch2(MapInterface)
+RimWorld.UIRoot_Play:RimWorld.UIRoot_Play.UIRootOnGUI_Patch1(UIRoot_Play)
+Verse.Root:Verse.Root.OnGUI_Patch1(Root)
+
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.ResetTweenedPosToRoot () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x0001d] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn.get_DrawPos () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) Verse.TooltipGiverList.Verse.TooltipGiverList.DispenseAllThingTooltips_Patch1(Verse.TooltipGiverList)
+  at (wrapper dynamic-method) RimWorld.MapInterface.RimWorld.MapInterface.MapInterfaceOnGUI_BeforeMainTabs_Patch2(RimWorld.MapInterface)
+  at (wrapper dynamic-method) RimWorld.UIRoot_Play.RimWorld.UIRoot_Play.UIRootOnGUI_Patch1(RimWorld.UIRoot_Play)
+  at (wrapper dynamic-method) Verse.Root.Verse.Root.OnGUI_Patch1(Verse.Root)
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+Verse.Root:Verse.Root.OnGUI_Patch1(Root)
+
+Exception filling window for DubsMintMinimap.MainTabWindow_MiniMap: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.ResetTweenedPosToRoot () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x0001d] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn.get_DrawPos () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at DubsMintMinimap.MainTabWindow_MiniMap.DrawAllPawns (UnityEngine.Rect radarRect) [0x00428] in <9935fa0fcabf4a51944c34b5a4b70cb9>:0 
+  at DubsMintMinimap.MainTabWindow_MiniMap.Minimap (UnityEngine.Rect inRect) [0x0062c] in <9935fa0fcabf4a51944c34b5a4b70cb9>:0 
+  at DubsMintMinimap.MainTabWindow_MiniMap.DoWindowContents (UnityEngine.Rect inRect) [0x0054b] in <9935fa0fcabf4a51944c34b5a4b70cb9>:0 
+  at Verse.Window.InnerWindowOnGUI (System.Int32 x) [0x00165] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+Verse.Window:InnerWindowOnGUI(Int32)
+UnityEngine.GUI:CallWindowDelegate(WindowFunction, Int32, Int32, GUISkin, Int32, Single, Single, GUIStyle)
+
+Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.ResetTweenedPosToRoot () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x0001d] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn.get_DrawPos () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) RimWorld.SelectionDrawer.RimWorld.SelectionDrawer.DrawSelectionBracketFor_Patch1(object)
+  at (wrapper dynamic-method) RimWorld.SelectionDrawer.RimWorld.SelectionDrawer.DrawSelectionOverlays_Patch2()
+  at (wrapper dynamic-method) RimWorld.MapInterface.RimWorld.MapInterface.MapInterfaceUpdate_Patch4(RimWorld.MapInterface)
+  at (wrapper dynamic-method) RimWorld.UIRoot_Play.RimWorld.UIRoot_Play.UIRootUpdate_Patch1(RimWorld.UIRoot_Play)
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+RimWorld.UIRoot_Play:RimWorld.UIRoot_Play.UIRootUpdate_Patch1(UIRoot_Play)
+Verse.Root:Verse.Root.Update_Patch1(Root)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+Exception ticking Sora (at (182, 0, 180)): System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.ResetTweenedPosToRoot () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x0001d] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at RimWorld.PawnFootprintMaker.FootprintMakerTick () [0x00045] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.DrawTrackerTick () [0x0004a] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) Verse.Pawn.Verse.Pawn.Tick_Patch5(Verse.Pawn)
+  at (wrapper dynamic-method) Verse.TickList.Verse.TickList.Tick_Patch2(Verse.TickList)
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+Verse.TickList:Verse.TickList.Tick_Patch2(TickList)
+Verse.TickManager:Verse.TickManager.DoSingleTick_Patch3(TickManager)
+Verse.TickManager:TickManagerUpdate()
+Verse.Game:Verse.Game.UpdatePlay_Patch2(Game)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+Exception ticking Sora (at (181, 0, 179)): System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.ResetTweenedPosToRoot () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x0001d] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at RimWorld.PawnFootprintMaker.FootprintMakerTick () [0x00045] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.DrawTrackerTick () [0x0004a] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) Verse.Pawn.Verse.Pawn.Tick_Patch5(Verse.Pawn)
+  at (wrapper dynamic-method) Verse.TickList.Verse.TickList.Tick_Patch2(Verse.TickList)
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+Verse.TickList:Verse.TickList.Tick_Patch2(TickList)
+Verse.TickManager:Verse.TickManager.DoSingleTick_Patch3(TickManager)
+Verse.TickManager:TickManagerUpdate()
+Verse.Game:Verse.Game.UpdatePlay_Patch2(Game)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+Exception drawing Sora: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.ResetTweenedPosToRoot () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x0001d] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn.get_DrawPos () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Thing.Draw () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) Verse.ThingWithComps.Verse.ThingWithComps.Draw_Patch1(Verse.ThingWithComps)
+  at (wrapper dynamic-method) Verse.DynamicDrawManager.Verse.DynamicDrawManager.DrawDynamicThings_Patch1(Verse.DynamicDrawManager)
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+Verse.DynamicDrawManager:Verse.DynamicDrawManager.DrawDynamicThings_Patch1(DynamicDrawManager)
+Verse.Map:Verse.Map.MapUpdate_Patch2(Map)
+Verse.Game:Verse.Game.UpdatePlay_Patch2(Game)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+Exception drawing ThingOverlay for Sora: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.ResetTweenedPosToRoot () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x0001d] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn.get_DrawPos () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.GenMapUI.LabelDrawPosFor (Verse.Thing thing, System.Single worldOffsetZ) [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) Verse.PawnUIOverlay.Verse.PawnUIOverlay.DrawPawnGUIOverlay_Patch3(Verse.PawnUIOverlay)
+  at Verse.Pawn.DrawGUIOverlay () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) Verse.ThingOverlays.Verse.ThingOverlays.ThingOverlaysOnGUI_Patch1(Verse.ThingOverlays)
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+Verse.ThingOverlays:Verse.ThingOverlays.ThingOverlaysOnGUI_Patch1(ThingOverlays)
+RimWorld.MapInterface:RimWorld.MapInterface.MapInterfaceOnGUI_BeforeMainTabs_Patch2(MapInterface)
+RimWorld.UIRoot_Play:RimWorld.UIRoot_Play.UIRootOnGUI_Patch1(UIRoot_Play)
+Verse.Root:Verse.Root.OnGUI_Patch1(Root)
+
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.ResetTweenedPosToRoot () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x0001d] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn.get_DrawPos () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) Verse.TooltipGiverList.Verse.TooltipGiverList.DispenseAllThingTooltips_Patch1(Verse.TooltipGiverList)
+  at (wrapper dynamic-method) RimWorld.MapInterface.RimWorld.MapInterface.MapInterfaceOnGUI_BeforeMainTabs_Patch2(RimWorld.MapInterface)
+  at (wrapper dynamic-method) RimWorld.UIRoot_Play.RimWorld.UIRoot_Play.UIRootOnGUI_Patch1(RimWorld.UIRoot_Play)
+  at (wrapper dynamic-method) Verse.Root.Verse.Root.OnGUI_Patch1(Verse.Root)
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+Verse.Root:Verse.Root.OnGUI_Patch1(Root)
+
+Exception filling window for DubsMintMinimap.MainTabWindow_MiniMap: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.ResetTweenedPosToRoot () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x0001d] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn.get_DrawPos () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at DubsMintMinimap.MainTabWindow_MiniMap.DrawAllPawns (UnityEngine.Rect radarRect) [0x00428] in <9935fa0fcabf4a51944c34b5a4b70cb9>:0 
+  at DubsMintMinimap.MainTabWindow_MiniMap.Minimap (UnityEngine.Rect inRect) [0x0062c] in <9935fa0fcabf4a51944c34b5a4b70cb9>:0 
+  at DubsMintMinimap.MainTabWindow_MiniMap.DoWindowContents (UnityEngine.Rect inRect) [0x0054b] in <9935fa0fcabf4a51944c34b5a4b70cb9>:0 
+  at Verse.Window.InnerWindowOnGUI (System.Int32 x) [0x00165] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+Verse.Window:InnerWindowOnGUI(Int32)
+UnityEngine.GUI:CallWindowDelegate(WindowFunction, Int32, Int32, GUISkin, Int32, Single, Single, GUIStyle)
+
+Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.ResetTweenedPosToRoot () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x0001d] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn.get_DrawPos () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) RimWorld.SelectionDrawer.RimWorld.SelectionDrawer.DrawSelectionBracketFor_Patch1(object)
+  at (wrapper dynamic-method) RimWorld.SelectionDrawer.RimWorld.SelectionDrawer.DrawSelectionOverlays_Patch2()
+  at (wrapper dynamic-method) RimWorld.MapInterface.RimWorld.MapInterface.MapInterfaceUpdate_Patch4(RimWorld.MapInterface)
+  at (wrapper dynamic-method) RimWorld.UIRoot_Play.RimWorld.UIRoot_Play.UIRootUpdate_Patch1(RimWorld.UIRoot_Play)
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+RimWorld.UIRoot_Play:RimWorld.UIRoot_Play.UIRootUpdate_Patch1(UIRoot_Play)
+Verse.Root:Verse.Root.Update_Patch1(Root)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+Exception ticking Sora (at (181, 0, 179)): System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.ResetTweenedPosToRoot () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x0001d] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at RimWorld.PawnFootprintMaker.FootprintMakerTick () [0x00045] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.DrawTrackerTick () [0x0004a] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) Verse.Pawn.Verse.Pawn.Tick_Patch5(Verse.Pawn)
+  at (wrapper dynamic-method) Verse.TickList.Verse.TickList.Tick_Patch2(Verse.TickList)
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+Verse.TickList:Verse.TickList.Tick_Patch2(TickList)
+Verse.TickManager:Verse.TickManager.DoSingleTick_Patch3(TickManager)
+Verse.TickManager:TickManagerUpdate()
+Verse.Game:Verse.Game.UpdatePlay_Patch2(Game)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+Exception ticking Sora (at (180, 0, 179)): System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.ResetTweenedPosToRoot () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x0001d] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at RimWorld.PawnFootprintMaker.FootprintMakerTick () [0x00045] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.DrawTrackerTick () [0x0004a] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) Verse.Pawn.Verse.Pawn.Tick_Patch5(Verse.Pawn)
+  at (wrapper dynamic-method) Verse.TickList.Verse.TickList.Tick_Patch2(Verse.TickList)
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+Verse.TickList:Verse.TickList.Tick_Patch2(TickList)
+Verse.TickManager:Verse.TickManager.DoSingleTick_Patch3(TickManager)
+Verse.TickManager:TickManagerUpdate()
+Verse.Game:Verse.Game.UpdatePlay_Patch2(Game)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+Exception drawing Sora: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.ResetTweenedPosToRoot () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x0001d] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn.get_DrawPos () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Thing.Draw () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) Verse.ThingWithComps.Verse.ThingWithComps.Draw_Patch1(Verse.ThingWithComps)
+  at (wrapper dynamic-method) Verse.DynamicDrawManager.Verse.DynamicDrawManager.DrawDynamicThings_Patch1(Verse.DynamicDrawManager)
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+Verse.DynamicDrawManager:Verse.DynamicDrawManager.DrawDynamicThings_Patch1(DynamicDrawManager)
+Verse.Map:Verse.Map.MapUpdate_Patch2(Map)
+Verse.Game:Verse.Game.UpdatePlay_Patch2(Game)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+Exception drawing ThingOverlay for Sora: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.ResetTweenedPosToRoot () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x0001d] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn.get_DrawPos () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.GenMapUI.LabelDrawPosFor (Verse.Thing thing, System.Single worldOffsetZ) [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) Verse.PawnUIOverlay.Verse.PawnUIOverlay.DrawPawnGUIOverlay_Patch3(Verse.PawnUIOverlay)
+  at Verse.Pawn.DrawGUIOverlay () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) Verse.ThingOverlays.Verse.ThingOverlays.ThingOverlaysOnGUI_Patch1(Verse.ThingOverlays)
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+Verse.ThingOverlays:Verse.ThingOverlays.ThingOverlaysOnGUI_Patch1(ThingOverlays)
+RimWorld.MapInterface:RimWorld.MapInterface.MapInterfaceOnGUI_BeforeMainTabs_Patch2(MapInterface)
+RimWorld.UIRoot_Play:RimWorld.UIRoot_Play.UIRootOnGUI_Patch1(UIRoot_Play)
+Verse.Root:Verse.Root.OnGUI_Patch1(Root)
+
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.ResetTweenedPosToRoot () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x0001d] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn.get_DrawPos () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) Verse.TooltipGiverList.Verse.TooltipGiverList.DispenseAllThingTooltips_Patch1(Verse.TooltipGiverList)
+  at (wrapper dynamic-method) RimWorld.MapInterface.RimWorld.MapInterface.MapInterfaceOnGUI_BeforeMainTabs_Patch2(RimWorld.MapInterface)
+  at (wrapper dynamic-method) RimWorld.UIRoot_Play.RimWorld.UIRoot_Play.UIRootOnGUI_Patch1(RimWorld.UIRoot_Play)
+  at (wrapper dynamic-method) Verse.Root.Verse.Root.OnGUI_Patch1(Verse.Root)
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+Verse.Root:Verse.Root.OnGUI_Patch1(Root)
+
+Exception filling window for DubsMintMinimap.MainTabWindow_MiniMap: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.ResetTweenedPosToRoot () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x0001d] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn.get_DrawPos () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at DubsMintMinimap.MainTabWindow_MiniMap.DrawAllPawns (UnityEngine.Rect radarRect) [0x00428] in <9935fa0fcabf4a51944c34b5a4b70cb9>:0 
+  at DubsMintMinimap.MainTabWindow_MiniMap.Minimap (UnityEngine.Rect inRect) [0x0062c] in <9935fa0fcabf4a51944c34b5a4b70cb9>:0 
+  at DubsMintMinimap.MainTabWindow_MiniMap.DoWindowContents (UnityEngine.Rect inRect) [0x0054b] in <9935fa0fcabf4a51944c34b5a4b70cb9>:0 
+  at Verse.Window.InnerWindowOnGUI (System.Int32 x) [0x00165] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+Verse.Window:InnerWindowOnGUI(Int32)
+UnityEngine.GUI:CallWindowDelegate(WindowFunction, Int32, Int32, GUISkin, Int32, Single, Single, GUIStyle)
+
+Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.ResetTweenedPosToRoot () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x0001d] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn.get_DrawPos () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) RimWorld.SelectionDrawer.RimWorld.SelectionDrawer.DrawSelectionBracketFor_Patch1(object)
+  at (wrapper dynamic-method) RimWorld.SelectionDrawer.RimWorld.SelectionDrawer.DrawSelectionOverlays_Patch2()
+  at (wrapper dynamic-method) RimWorld.MapInterface.RimWorld.MapInterface.MapInterfaceUpdate_Patch4(RimWorld.MapInterface)
+  at (wrapper dynamic-method) RimWorld.UIRoot_Play.RimWorld.UIRoot_Play.UIRootUpdate_Patch1(RimWorld.UIRoot_Play)
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+RimWorld.UIRoot_Play:RimWorld.UIRoot_Play.UIRootUpdate_Patch1(UIRoot_Play)
+Verse.Root:Verse.Root.Update_Patch1(Root)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+Exception ticking Sora (at (180, 0, 179)): System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.ResetTweenedPosToRoot () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x0001d] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at RimWorld.PawnFootprintMaker.FootprintMakerTick () [0x00045] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.DrawTrackerTick () [0x0004a] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) Verse.Pawn.Verse.Pawn.Tick_Patch5(Verse.Pawn)
+  at (wrapper dynamic-method) Verse.TickList.Verse.TickList.Tick_Patch2(Verse.TickList)
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+Verse.TickList:Verse.TickList.Tick_Patch2(TickList)
+Verse.TickManager:Verse.TickManager.DoSingleTick_Patch3(TickManager)
+Verse.TickManager:TickManagerUpdate()
+Verse.Game:Verse.Game.UpdatePlay_Patch2(Game)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+Exception drawing Sora: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.ResetTweenedPosToRoot () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x0001d] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn.get_DrawPos () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Thing.Draw () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) Verse.ThingWithComps.Verse.ThingWithComps.Draw_Patch1(Verse.ThingWithComps)
+  at (wrapper dynamic-method) Verse.DynamicDrawManager.Verse.DynamicDrawManager.DrawDynamicThings_Patch1(Verse.DynamicDrawManager)
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+Verse.DynamicDrawManager:Verse.DynamicDrawManager.DrawDynamicThings_Patch1(DynamicDrawManager)
+Verse.Map:Verse.Map.MapUpdate_Patch2(Map)
+Verse.Game:Verse.Game.UpdatePlay_Patch2(Game)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+Exception drawing ThingOverlay for Sora: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.ResetTweenedPosToRoot () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x0001d] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn.get_DrawPos () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.GenMapUI.LabelDrawPosFor (Verse.Thing thing, System.Single worldOffsetZ) [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) Verse.PawnUIOverlay.Verse.PawnUIOverlay.DrawPawnGUIOverlay_Patch3(Verse.PawnUIOverlay)
+  at Verse.Pawn.DrawGUIOverlay () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) Verse.ThingOverlays.Verse.ThingOverlays.ThingOverlaysOnGUI_Patch1(Verse.ThingOverlays)
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+Verse.ThingOverlays:Verse.ThingOverlays.ThingOverlaysOnGUI_Patch1(ThingOverlays)
+RimWorld.MapInterface:RimWorld.MapInterface.MapInterfaceOnGUI_BeforeMainTabs_Patch2(MapInterface)
+RimWorld.UIRoot_Play:RimWorld.UIRoot_Play.UIRootOnGUI_Patch1(UIRoot_Play)
+Verse.Root:Verse.Root.OnGUI_Patch1(Root)
+
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.ResetTweenedPosToRoot () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x0001d] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn.get_DrawPos () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) Verse.TooltipGiverList.Verse.TooltipGiverList.DispenseAllThingTooltips_Patch1(Verse.TooltipGiverList)
+  at (wrapper dynamic-method) RimWorld.MapInterface.RimWorld.MapInterface.MapInterfaceOnGUI_BeforeMainTabs_Patch2(RimWorld.MapInterface)
+  at (wrapper dynamic-method) RimWorld.UIRoot_Play.RimWorld.UIRoot_Play.UIRootOnGUI_Patch1(RimWorld.UIRoot_Play)
+  at (wrapper dynamic-method) Verse.Root.Verse.Root.OnGUI_Patch1(Verse.Root)
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+Verse.Root:Verse.Root.OnGUI_Patch1(Root)
+
+Exception filling window for DubsMintMinimap.MainTabWindow_MiniMap: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.ResetTweenedPosToRoot () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x0001d] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn.get_DrawPos () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at DubsMintMinimap.MainTabWindow_MiniMap.DrawAllPawns (UnityEngine.Rect radarRect) [0x00428] in <9935fa0fcabf4a51944c34b5a4b70cb9>:0 
+  at DubsMintMinimap.MainTabWindow_MiniMap.Minimap (UnityEngine.Rect inRect) [0x0062c] in <9935fa0fcabf4a51944c34b5a4b70cb9>:0 
+  at DubsMintMinimap.MainTabWindow_MiniMap.DoWindowContents (UnityEngine.Rect inRect) [0x0054b] in <9935fa0fcabf4a51944c34b5a4b70cb9>:0 
+  at Verse.Window.InnerWindowOnGUI (System.Int32 x) [0x00165] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+Verse.Window:InnerWindowOnGUI(Int32)
+UnityEngine.GUI:CallWindowDelegate(WindowFunction, Int32, Int32, GUISkin, Int32, Single, Single, GUIStyle)
+
+Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.ResetTweenedPosToRoot () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x0001d] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn.get_DrawPos () [0x00006] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) RimWorld.SelectionDrawer.RimWorld.SelectionDrawer.DrawSelectionBracketFor_Patch1(object)
+  at (wrapper dynamic-method) RimWorld.SelectionDrawer.RimWorld.SelectionDrawer.DrawSelectionOverlays_Patch2()
+  at (wrapper dynamic-method) RimWorld.MapInterface.RimWorld.MapInterface.MapInterfaceUpdate_Patch4(RimWorld.MapInterface)
+  at (wrapper dynamic-method) RimWorld.UIRoot_Play.RimWorld.UIRoot_Play.UIRootUpdate_Patch1(RimWorld.UIRoot_Play)
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+RimWorld.UIRoot_Play:RimWorld.UIRoot_Play.UIRootUpdate_Patch1(UIRoot_Play)
+Verse.Root:Verse.Root.Update_Patch1(Root)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+Exception ticking Sora (at (180, 0, 179)): System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.PawnCollisionTweenerUtility.CanGoDirectlyToNextCell (Verse.Pawn pawn) [0x0008c] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnCollisionTweenerUtility.PawnCollisionPosOffsetFor (Verse.Pawn pawn) [0x000bd] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.TweenedPosRoot () [0x00067] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.ResetTweenedPosToRoot () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.PawnTweener.PreDrawPosCalculation () [0x0001d] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.get_DrawPos () [0x00000] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at RimWorld.PawnFootprintMaker.FootprintMakerTick () [0x00045] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at Verse.Pawn_DrawTracker.DrawTrackerTick () [0x0004a] in <c36f9493c9844ddaa7fb5c788416098f>:0 
+  at (wrapper dynamic-method) Verse.Pawn.Verse.Pawn.Tick_Patch5(Verse.Pawn)
+  at (wrapper dynamic-method) Verse.TickList.Verse.TickList.Tick_Patch2(Verse.TickList)
+Verse.Log:Verse.Log.Error_Patch3(String, Boolean)
+Verse.TickList:Verse.TickList.Tick_Patch2(TickList)
+Verse.TickManager:Verse.TickManager.DoSingleTick_Patch3(TickManager)
+Verse.TickManager:TickManagerUpdate()
+Verse.Game:Verse.Game.UpdatePlay_Patch2(Game)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
+
+[ATPP] HediffSet.GetFirstHediffOfDefObject reference not set to an instance of an object -   at MOARANDROIDS.Pawn_HealthTracker_Patch+GetFirstHediffOfDef.Listener (Verse.HediffSet __instance, Verse.Hediff& __result, Verse.HediffDef def, System.Boolean mustBeVisible) [0x00022] in <56dcae162de2498b9bb4ebfacbf4d8d6>:0 
+Verse.Log:Message(String, Boolean)
+MOARANDROIDS.GetFirstHediffOfDef:Listener(HediffSet, Hediff&, HediffDef, Boolean)
+Verse.HediffSet:Verse.HediffSet.GetFirstHediffOfDef_Patch1(HediffSet, HediffDef, Boolean)
+RimWorld.ThoughtWorker_Hediff:RimWorld.ThoughtWorker_Hediff.CurrentStateInternal_Patch1(ThoughtWorker_Hediff, Pawn)
+RimWorld.ThoughtWorker:CurrentState(Pawn)
+RimWorld.SituationalThoughtHandler:RimWorld.SituationalThoughtHandler.TryCreateThought_Patch1(SituationalThoughtHandler, ThoughtDef)
+RimWorld.SituationalThoughtHandler:CheckRecalculateMoodThoughts()
+RimWorld.SituationalThoughtHandler:AppendMoodThoughts(List`1)
+RimWorld.ThoughtHandler:GetAllMoodThoughts(List`1)
+RimWorld.ThoughtHandler:GetDistinctMoodThoughtGroups(List`1)
+RimWorld.ThoughtHandler:TotalMoodOffset()
+RimWorld.Need_Mood:get_CurInstantLevel()
+RimWorld.Need_Seeker:NeedInterval()
+RimWorld.Need_Mood:RimWorld.Need_Mood.NeedInterval_Patch1(Need_Mood)
+RimWorld.Pawn_NeedsTracker:RimWorld.Pawn_NeedsTracker.NeedsTrackerTick_Patch2(Pawn_NeedsTracker)
+Verse.Pawn:Verse.Pawn.Tick_Patch5(Pawn)
+Verse.TickList:Verse.TickList.Tick_Patch2(TickList)
+Verse.TickManager:Verse.TickManager.DoSingleTick_Patch3(TickManager)
+Verse.TickManager:TickManagerUpdate()
+Verse.Game:Verse.Game.UpdatePlay_Patch2(Game)
+Verse.Root_Play:Verse.Root_Play.Update_Patch1(Root_Play)
